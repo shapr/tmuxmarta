@@ -3,11 +3,11 @@ version:             0.1.0.0
 synopsis:            display MARTA info in byobu status line
 description:         Please see README.md
 homepage:            https://github.com/shapr/tmuxmarta#readme
-license:             GPL3
+license:             GPL-3
 license-file:        LICENSE
 author:              Shae Erisson
 maintainer:          shae@ScannedInAvian.com
-copyright:           GPL3
+copyright:           GPL-3
 category:            fun
 build-type:          Simple
 extra-source-files:  README.md
@@ -21,6 +21,7 @@ library
                      , unordered-containers >= 0.2.7.2
                      , lens
                      , aeson
+                     , lens-aeson
                      , bytestring
                      , wreq
                      , directory
